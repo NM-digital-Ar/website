@@ -38,7 +38,7 @@ export default function Hero({}: Props) {
           {/* <Link href="#portfolio">
             <button className="heroButton">Portfolio</button>
           </Link> */}
-          <Link href="#contact">
+          <Link href="https://www.nm-digital.com.ar/#contact">
             <button className="heroButton">Contacto</button>
           </Link>
         </div>
