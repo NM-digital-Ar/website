@@ -12,11 +12,11 @@ function ModalService({ visible, text, onClick }: Props) {
   return (
     <div>
       <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
-        <div className="bg-white opacity-80 p-2 rounded text-black text-base flex flex-col items-center tracking-wide">
-          <h1 className="text-2xl text-semibold mb-2">Ventajas</h1>
+        <div className="bg-white opacity-80 p-2 rounded text-black text-base flex flex-col items-center tracking-wide ">
+          <h1 className="text-3xl text-bold mb-2">Ventajas</h1>
           {text}
           <button
-            className="mt-3 bg-[#F7DE65] w-[50%] rounded text-bold"
+            className="mt-3 bg-[#F7DE65] w-[50%]  rounded text-bold"
             onClick={onClick}
           >
             OK

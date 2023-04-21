@@ -1,6 +1,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Link from "next/link";
+import Image from "next/image";
 
 type Props = {};
 
@@ -12,10 +13,12 @@ export default function Hero({}: Props) {
   });
   return (
     <div className=" h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden ">
-      <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="./logo-nm.png"
+      <Image
+        className="relative rounded-full  mx-auto object-cover"
+        src="/logo-nm.png"
         alt=""
+        width={150}
+        height={150}
       />
       <div>
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px] mb-4 ">

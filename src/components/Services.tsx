@@ -13,7 +13,7 @@ export default function Services({}: Props) {
       <h3 className="absolute top-20 uppercase tracking-[15px] text-gray-500 text-2xl text-center">
         Nuestros Servicios
       </h3>
-      <div className="w-ful flex flex-col text-center  space-y-10 text-4xl  mt-5">
+      <div className="w-full flex flex-col text-center  space-y-10 text-5xl  mt-5">
         <div>
           <button
             className="hover:text-[#F7AB0A]"
@@ -24,10 +24,10 @@ export default function Services({}: Props) {
           <ModalService
             visible={showModal}
             onClick={() => setShowModal(false)}
-            text="Genera leads,
-        Aumenta las conversiones,
-        Mejora el rendimiento de las campañas,
-        Facilita la segmentación de la audiencia"
+            text="✔  Genera leads 
+        ✔ Aumenta las conversiones 
+        ✔ Mejora el rendimiento de las campañas  
+        ✔ Facilita la segmentación de la audiencia"
           />
         </div>
         <div>
@@ -40,10 +40,10 @@ export default function Services({}: Props) {
           <ModalService
             visible={showModal2}
             onClick={() => setShowModal2(false)}
-            text="Disponibilidad 24/7,
-        Comercio global,
-        Información analítica,
-        Escalable"
+            text="✔ Disponibilidad 24/7
+            ✔ Comercio global
+            ✔ Información analítica
+            ✔ Escalable"
           />
         </div>
         <div>
@@ -56,10 +56,10 @@ export default function Services({}: Props) {
           <ModalService
             visible={showModal3}
             onClick={() => setShowModal3(false)}
-            text="Mejora el posicionamiento,
-        Mayor visibilidad,
-        Captación de nuevos clientes,
-        Aporta seriedad y confiabilidad"
+            text="✔ Mejora el posicionamiento
+            ✔ Mayor visibilidad
+            ✔ Captación de nuevos clientes
+            ✔ Aporta seriedad y confiabilidad"
           />
         </div>
       </div>
