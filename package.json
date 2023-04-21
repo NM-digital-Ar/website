@@ -9,17 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.17",
     "@types/node": "18.15.11",
     "@types/react": "18.0.34",
     "@types/react-dom": "18.0.11",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "firebase": "^9.20.0",
     "framer-motion": "^10.11.6",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0",
+    "tailwind-scrollbar": "^3.0.0",
     "typescript": "5.0.4"
   },
   "devDependencies": {

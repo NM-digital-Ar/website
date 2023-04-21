@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center ">
+    <header className="sticky top-0 p-2 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center ">
       <motion.div
         initial={{
           x: -500,
@@ -30,7 +30,7 @@ export default function Header({}: Props) {
           target="blanck"
         />
         <SocialIcon
-          url="https://instagram.com/nmdigital.ar?igshid=ZDdkNTZiNTM="
+          url="https://instagram.com/nm.digital.ar?igshid=ZDdkNTZiNTM="
           fgColor="grey"
           bgColor="transparent"
           target="blanck"
@@ -59,15 +59,16 @@ export default function Header({}: Props) {
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
         <SocialIcon
+          url="http://localhost:3000/#contact"
           className="cursor-pointer"
           network="email"
           fgColor="grey"
           bgColor="transparent"
         />
+
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
           Contactanos!
         </p>
-        {/*  get in touch */}
       </motion.div>
     </header>
   );
